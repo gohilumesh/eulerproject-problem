@@ -1,0 +1,30 @@
+{
+  "name": "eulerproject-problem",
+  "version": "1.0.0",
+  "description": "Euler problems solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "lint": "./node_modules/.bin/eslint lib/*.js"
+  },
+  "keywords": [
+    "Euler",
+    "Problems"
+  ],
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "author": "gohilumesh@hotmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "mocha": "^5.0.1",
+    "pre-commit": "^1.2.2"
+  }
+}
