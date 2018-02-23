@@ -3,9 +3,9 @@
 Solution in javascript
 
 ## Setup
-  - git clone
+  - git clone git@github.com:gohilumesh/eulerproject-problem.git
   - npm install
-  - npm test
+  - npm run test
 
 ## To run lint
-npm lint
+npm run lint
