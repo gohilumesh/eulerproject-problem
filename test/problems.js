@@ -10,8 +10,8 @@ describe("Euler project Problems -", function() {
       expect(result).to.equal(2640);
     });
 
-    it("should return correct result when max is not passed", () => {
-      let result = problems.sumSquareDiff();
+    it("should return correct result when max value 100", () => {
+      let result = problems.sumSquareDiff(100);
       expect(result).to.equal(25164150);
     });
 
